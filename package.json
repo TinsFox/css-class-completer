@@ -1,0 +1,59 @@
+{
+  "name": "css-class-completer",
+  "displayName": "CSS Class Completer",
+  "description": "Provides autocompletion for CSS class names",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact",
+    "onLanguage:css",
+    "onLanguage:less",
+    "onLanguage:scss"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "CSS Class Completer",
+      "properties": {
+        "cssClassCompleter.enableGlobalScan": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable global scan of all style files in the workspace"
+        },
+        "cssClassCompleter.scanPaths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Paths to scan for style files when global scan is disabled"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.92.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.0",
+    "glob": "^11.0.0",
+    "typescript": "^4.9.5"
+  }
+}
