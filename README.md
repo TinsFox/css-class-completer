@@ -2,7 +2,7 @@
 
 CSS Class Completer is a Visual Studio Code extension that provides autocompletion for CSS class names in HTML, JSX, and TSX files. It scans your project's CSS and LESS files to offer intelligent suggestions as you type.
 
-![CSS Class Completer](./css-class-completer.mp4)
+![CSS Class Completer](./css-class-completer.gif)
 
 
 ## Features

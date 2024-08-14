@@ -2,7 +2,7 @@
 
 CSS 类名自动补全是一个 Visual Studio Code 扩展，为 HTML、JSX 和 TSX 文件提供 CSS 类名的自动补全功能。它会扫描您项目中的 CSS 和 LESS 文件，在您输入时提供智能建议。
 
-![CSS Class Completer](./css-class-completer.mp4)
+![CSS Class Completer](./css-class-completer.gif)
 
 
 ## 功能特性
