@@ -6,7 +6,19 @@
   "engines": {
     "vscode": "^1.92.0"
   },
+  "keywords": [
+    "css",
+    "class",
+    "className",
+    "cssClassCompleter",
+    "completer",
+    "style",
+    "tailwind"
+  ],
   "categories": [
+    "Snippets",
+    "Formatters",
+    "Language Packs",
     "Other"
   ],
   "activationEvents": [
@@ -38,6 +50,22 @@
       }
     }
   },
+  "license": "SEE LICENSE IN ./LICENSE",
+  "galleryBanner": {
+    "color": "#a78bfa",
+    "theme": "light"
+  },
+  "author": {
+    "name": "TinsFox",
+    "url": "https://github.com/TinsFox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TinsFox/css-class-completer.git"
+  },
+  "homepage": "git@github.com:TinsFox/css-class-completer.git",
+  "publisher": "TinsFox",
+  "icon": "./public/logo.png",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
