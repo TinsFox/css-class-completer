@@ -38,6 +38,10 @@
       }
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TinsFox/css-class-completer.git"
+  },
   "publisher": "TinsFox",
   "scripts": {
     "vscode:prepublish": "npm run compile",
