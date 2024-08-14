@@ -4,7 +4,6 @@ CSS Class Completer is a Visual Studio Code extension that provides autocompleti
 
 ![CSS Class Completer](./css-class-completer.gif)
 
-
 ## Features
 
 - Autocomplete CSS class names in HTML, JSX, and TSX files
@@ -30,7 +29,6 @@ You can configure the extension in your VS Code settings:
 - `cssClassCompleter.enableGlobalScan`: Enable or disable global scanning of all style files in the workspace (default: true)
 - `cssClassCompleter.scanPaths`: Specify paths to scan for style files when global scan is disabled (default: [])
 
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -38,5 +36,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-

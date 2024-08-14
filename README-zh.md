@@ -4,7 +4,6 @@ CSS 类名自动补全是一个 Visual Studio Code 扩展，为 HTML、JSX 和 T
 
 ![CSS Class Completer](./css-class-completer.gif)
 
-
 ## 功能特性
 
 - 在 HTML、JSX 和 TSX 文件中自动补全 CSS 类名
